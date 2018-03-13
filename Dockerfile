@@ -1,4 +1,4 @@
-FROM centos:7.4.1708
+ FROM centos:7.4.1708
 
 RUN yum -y update && yum clean all && yum install -y libXrender && yum install -y libXext && yum install -y fontconfig && yum install -y freetype && yum install -y libaio && yum install -y zip && yum install -y unzip  && yum install -y tigervnc-server && yum install -y xterm
 
